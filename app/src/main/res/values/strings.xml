@@ -1,0 +1,61 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application title -->
+    <string name="app_name">Quiz App</string>
+
+    <!-- Header text for the questions. [CHAR LIMIT = NONE] -->
+    <string name="question_header">Question</string>
+
+    <!-- Answer hint. [CHAR LIMIT = 200] -->
+    <string name="answer_hint">Write your answer here</string>
+
+    <!-- Question 1. [CHAR LIMIT = NONE ] -->
+    <string name="question_01">Which singer joined Mel Gibson in the movie Mad Max: Beyond The Thunderdome? </string>
+
+    <!-- Correct answer and answer options to question 1. [CHAR LIMIT = NONE ] -->
+    <string name="answer_01_option_A" translatable="false">Tina Turner</string>
+    <string name="answer_01_option_B" translatable="false">Alicia Keys</string>
+    <string name="answer_01_option_A_isValid" translatable="false">true</string> 
+    <string name="answer_01_option_B_isValid" translatable="false">false</string> 
+
+    <!-- Question 2. [CHAR LIMIT = NONE ] -->
+    <string name="question_02">What is the capital city of Spain?</string>
+
+    <!-- Answer to question 2. [CHAR LIMIT = NONE ] -->
+    <string name="answer_02">Madrid</string>
+
+
+     <!-- Question 3. [CHAR LIMIT = NONE ] -->
+     <string name="question_03">Please, select the country or countries where Spanish is the official language.</string>
+      <!-- Answer options to question 3. [CHAR LIMIT = NONE ] --> 
+    <string name="answer_03_option_A">Spain</string>
+     <string name="answer_03_option_B">France</string> 
+    <string name="answer_03_option_C">Argentina</string> 
+    <string name="answer_03_option_A_isValid" translatable="false">true</string> 
+    <string name="answer_03_option_B_isValid" translatable="false">false</string> 
+    <string name="answer_03_option_C_isValid" translatable="false">true</string>
+
+    <!-- Question 4. [CHAR LIMIT = NONE ] -->
+    <string name="question_04">Which is the best company in the world?</string>
+
+    <!-- Answer to question 4. [CHAR LIMIT = NONE ] -->
+    <string name="answer_04" translatable="false">Google</string>
+
+    <!-- Question 5. [CHAR LIMIT = NONE ] -->
+    <string name="question_05">If you would need to learn Android, which online learning platform you would use?</string>
+
+    <!-- Answer to question 5. [CHAR LIMIT = NONE ] -->
+    <string name="answer_05" translatable="false">Udacity</string>
+
+    <!-- Check my answers button -->
+    <string name="check_my_answers">Check my answers</string>
+
+    <!-- Results message -->
+    <string name="results_message">You have successfully answered <xliff:g id="quantity" example="2">%d</xliff:g> questions!</string>
+
+    <!-- Numbers 1 to 5 -->
+    <string name="number_01">1</string>
+    <string name="number_02">2</string>
+    <string name="number_03">3</string>
+    <string name="number_04">4</string>
+    <string name="number_05">5</string>
+</resources>

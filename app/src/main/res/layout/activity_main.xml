@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dirigendo.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+
+        <!-- Question 1 -->
+        <LinearLayout style="@style/QuestionHeaderLayout">
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/question_header" />
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/number_01" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_01" />
+
+        <RadioGroup
+            style="@style/AnswerRadioGroupStyle">
+            <RadioButton
+                android:id="@+id/answer_01_option_A_radio_button"
+                style="@style/AnswerRadioButtonStyle"
+                android:text="@string/answer_01_option_A" />
+            <RadioButton
+                android:id="@+id/answer_01_option_B_radio_button"
+                style="@style/AnswerRadioButtonStyle"
+                android:text="@string/answer_01_option_B" />
+        </RadioGroup>
+
+
+        <!-- Question 2 -->
+        <LinearLayout style="@style/QuestionHeaderLayout">
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/question_header" />
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/number_02" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_02" />
+
+        <EditText
+            android:id="@+id/answer_02_edit_text"
+            style="@style/AnswerEditTextStyle"
+            android:hint="@string/answer_hint" />
+
+        <!-- Question 3 -->
+        <LinearLayout style="@style/QuestionHeaderLayout">
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/question_header" />
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/number_03" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_03" />
+
+            <CheckBox
+                android:id="@+id/answer_03_option_A_check_box"
+                style="@style/AnswerCheckBoxStyle"
+                android:text="@string/answer_03_option_A" />
+
+            <CheckBox
+                android:id="@+id/answer_03_option_B_check_box"
+                style="@style/AnswerCheckBoxStyle"
+                android:text="@string/answer_03_option_B" />
+
+            <CheckBox
+                android:id="@+id/answer_03_option_C_check_box"
+                style="@style/AnswerCheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/answer_03_option_C" />
+
+
+        <!-- Question 4 -->
+        <LinearLayout style="@style/QuestionHeaderLayout">
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/question_header" />
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/number_04" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_04" />
+
+        <EditText
+            android:id="@+id/answer_04_edit_text"
+            style="@style/AnswerEditTextStyle"
+            android:hint="@string/answer_hint" />
+
+        <!-- Question 5 -->
+        <LinearLayout style="@style/QuestionHeaderLayout">
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/question_header" />
+
+            <TextView
+                style="@style/QuestionHeaderTextStyle"
+                android:text="@string/number_05" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question_05" />
+
+        <EditText
+            android:id="@+id/answer_05_edit_text"
+            style="@style/AnswerEditTextStyle"
+            android:hint="@string/answer_hint" />
+
+        <!-- Check my answers button -->
+        <Button
+            android:id="@+id/check_my_answers_button"
+            style="@style/CheckMyAnswersButtonStyle"
+            android:onClick="checkMyAnswers"
+            android:text="@string/check_my_answers" />
+    </LinearLayout>
+</ScrollView>

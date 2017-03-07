@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="answer_02">Madrid</string>
+    <string name="answer_03_option_A">España</string>
+    <string name="answer_03_option_B">Francia</string>
+    <string name="answer_03_option_C">Argentina</string>
+    <string name="answer_hint">Escribe tu respuesta aquí</string>
+    <string name="check_my_answers">Comprobar mis respuestas</string>
+    <string name="question_01">¿Qué cantante se unió a Mel Gibson en la película Mad Max: Más allá de la cúpula de trueno?</string>
+    <string name="question_02">¿Cuál es la capital de España?</string>
+    <string name="question_03">Por favor, marca el país o países dónde el Español es una lengua oficial.</string>
+    <string name="question_04">¿Cuál es la mejor compañía del mundo?</string>
+    <string name="question_05">Si tuvieses que aprender Android, ¿qué plataforma online utilizaría?</string>
+    <string name="question_header">Pregunta</string>
+    <string name="results_message">¡Has respondido correctamente a <xliff:g id="quantity" example="2">%d</xliff:g> preguntas!</string>
+    <string name="number_01">1</string>
+    <string name="number_02">2</string>
+    <string name="number_03">3</string>
+    <string name="number_04">4</string>
+    <string name="number_05">5</string>
+</resources>
